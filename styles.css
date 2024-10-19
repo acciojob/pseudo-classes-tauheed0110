@@ -1,18 +1,17 @@
-/*  your css code here. If applicable */
 :root{
     background-color: rgb(135, 206, 235);
 }
 
-#para :first-child{
+body :first-child{
     background-color: black;
     color: white;
 }
 
-#para :nth-child(2){
+body :nth-child(2){
     color: green;
 }
 
-#para :last-child{
+body :last-child{
     color: red;
 }
 
@@ -24,6 +23,7 @@ ul li{
 
 ul :first-child {
     font-size: 22px;
+    color: black;
 }
 
 ul :last-child {
