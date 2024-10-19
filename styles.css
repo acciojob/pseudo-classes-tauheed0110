@@ -2,16 +2,16 @@
     background-color: rgb(135, 206, 235);
 }
 
-body :first-child{
+p:first-child{
     background-color: black;
     color: white;
 }
 
-body :nth-child(2){
+p:nth-child(2){
     color: green;
 }
 
-body :last-child{
+p:last-child{
     color: red;
 }
 
@@ -23,7 +23,6 @@ ul li{
 
 ul :first-child {
     font-size: 22px;
-    color: black;
 }
 
 ul :last-child {
