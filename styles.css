@@ -1,38 +1,45 @@
-:root{
-    background-color: rgb(135, 206, 235);
+/* Set background color for the entire page using :root */
+:root {
+    background-color: rgb(135, 206, 235); /* Light sky blue */
 }
 
-p:first-child{
-    background-color: black;
+/* Article with paragraphs */
+/* First paragraph - white text on black background */
+article p:first-child {
     color: white;
+    background-color: black;
 }
 
-p:nth-child(2){
-    color: green;
+/* Second paragraph - standard text color */
+article p:nth-child(2) {
+    color: initial; /* Uses default text color */
 }
 
-p:last-child{
+/* Third paragraph - red text */
+article p:last-child {
     color: red;
 }
 
-ul li{
-    background-color: gray;
+/* Unordered list with 5 items */
+/* Set the width to 50%, padding, and background color for all items */
+ul li {
     width: 50%;
     padding: 10px;
+    background-color: gray;
 }
 
-ul :first-child {
-    font-size: 22px;
-}
-
-ul :last-child {
-    font-size: 22px;
-}
-
-ul :nth-child(odd){
+/* Set a white background for every odd item */
+ul li:nth-child(odd) {
     background-color: white;
 }
 
-ul :nth-last-child(3){
+/* Set font size of 22px for the first and last list items */
+ul li:first-child,
+ul li:last-child {
+    font-size: 22px;
+}
+
+/* Set the background color to pink for the third-to-last item */
+ul li:nth-last-child(3) {
     background-color: pink;
 }
